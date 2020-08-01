@@ -42,7 +42,7 @@ const Dashboard: React.FC = () => {
   }, []);
 
   const navigateToProfile = useCallback(() => {
-    navigate('profile');
+    navigate('Profile');
   }, [navigate]);
 
   const navigateToCreateAppointment = useCallback(
